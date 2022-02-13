@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+javafx {
+    version = "17.0.2"
+    modules = [ 'javafx.controls' ]
+}
+
+group 'com.kodilla.project.game.'
+version '1.0-SNAPSHOT'
+mainClassName = 'com.kodilla.project.game.Battleship'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+implementation 'org.projectlombok:lombok:1.18.20'
+}
